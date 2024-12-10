@@ -1,18 +1,12 @@
 ## Managing GRUB Configuration
 
-### Edit GRUB Configuration
+### Edit GRUB Configuration file
 
 - **To edit the GRUB configuration file:**
   ```bash
   nano /etc/default/grub
   ```
   You can use this command to modify settings such as GRUB_TIMEOUT and GRUB_BACKGROUND.
-  
-- **To update GRUB after making changes:**
-  ```bash
-  update-grub
-  ```
-  This command regenerates the GRUB configuration file based on the settings you've modified.
 
 ## GRUB Timeout Style
 ### You can set the timeout style in the grub configuration:
@@ -24,16 +18,18 @@
   ```BASH
   GRUB_TIMEOUT_STYLE=menu
   ```
+  
 ## GRUB Timeout Setting
 - **To set the timeout duration (in seconds) for the GRUB menu:**
   ```bash
   GRUB_TIMEOUT=5
   ```
-## Final
-- **To update the grub file:**
+  
+## To update GRUB after making changes
   ```bash
   update-grub
   ```
+  This command regenerates the GRUB configuration file based on the settings you've modified.
 
 -----
 

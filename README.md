@@ -24,8 +24,9 @@
   ```bash
   GRUB_TIMEOUT=5
   ```
-  
-## To update GRUB after making changes
+
+## Update Grub file
+- **To update GRUB after making changes:**
   ```bash
   update-grub
   ```

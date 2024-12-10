@@ -7,6 +7,7 @@
   nano /etc/default/grub
   ```
   You can use this command to modify settings such as GRUB_TIMEOUT and GRUB_BACKGROUND.
+  
 - **To update GRUB after making changes:**
   ```bash
   update-grub

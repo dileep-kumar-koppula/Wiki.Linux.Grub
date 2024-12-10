@@ -31,7 +31,7 @@
   GRUB_TIMEOUT=5
   ```
 ## Final
-- **To update the grub file:
+- **To update the grub file:**
   ```bash
   update-grub
   ```
